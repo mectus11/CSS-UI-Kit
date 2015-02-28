@@ -1,0 +1,602 @@
+
+
+/*! Buttons */
+.blankbutton {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 3px;
+  color: black;
+  font-size: 13px;
+  background: #F7F7F7;
+  padding: 13px 30px 13px 30px;
+  text-decoration: none;
+  position: relative;
+}
+
+.blankbutton:hover {
+  background: #D0D0D0;
+  text-decoration: none;
+}
+
+.normalbutton {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 13px;
+  background: #3498db;
+  padding: 13px 30px 13px 30px;
+  text-decoration: none;
+  position: relative;
+}
+
+.normalbutton:hover {
+  background: #1b85c2;
+  text-decoration: none;
+}
+
+.dangerbutton{
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 13px;
+  background: #EE0F0F;
+  padding: 13px 30px 13px 30px;
+  text-decoration: none;
+  position: relative;
+}
+
+.dangerbutton:hover {
+  background: #d62424;
+  text-decoration: none;
+}
+
+.warningbutton {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 13px;
+  background: #FB7602;
+  padding: 13px 30px 13px 30px;
+  text-decoration: none;
+}
+
+.warningbutton:hover {
+  background: #EE770F;
+  text-decoration: none;
+}
+
+.infobutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 13px;
+  background: #1eb1e6;
+  padding: 13px 30px 13px 30px;
+  text-decoration: none;
+ }
+
+.infobutton:hover {
+  background: #0ba9d1;
+  text-decoration: none;
+}
+
+.successbutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 13px;
+  background: #18bd52;
+  padding: 13px 30px 13px 30px;
+  text-decoration: none;
+}
+
+.successbutton:hover {
+  background: #14b34b;
+  text-decoration: none;
+}
+
+.facebookbutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 13px;
+  background: #3b5998;
+  padding: 13px 30px 13px 40px;
+  text-decoration: none;
+  background-image: url("http://www.cmit.com.jm/images/facebook.png");
+  background-repeat: no-repeat;
+  background-size: 35px 40px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.facebookbutton:hover {
+  background: #355088;
+  text-decoration: none;
+  background-image: url("http://www.cmit.com.jm/images/facebook.png");
+  background-repeat: no-repeat;
+  background-size: 35px 40px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.twitterbutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 13px;
+  background: #00aced;
+  padding: 13px 30px 13px 40px;
+  text-decoration: none;
+  background-image: url("http://cdn.groceriesapparel.com/media/wysiwyg/icons/twitter-white.png");
+  background-repeat: no-repeat;
+  background-size: 30px 40px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.twitterbutton:hover {
+  background: #0ba9d1;
+  text-decoration: none;
+  background-image: url("http://cdn.groceriesapparel.com/media/wysiwyg/icons/twitter-white.png");
+  background-repeat: no-repeat;
+  background-size: 30px 40px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.githubbutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: #333333;
+  font-size: 13px;
+  background: #E5E5E5;
+  padding: 13px 30px 13px 40px;
+  text-decoration: none;
+  background-image: url("http://reno.gov/home/showimage?id=6126");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.githubbutton:hover {
+  background: #D7D7D7;
+  text-decoration: none;
+  background-image: url("http://reno.gov/home/showimage?id=6126");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.pastebinbutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: white;
+  font-size: 13px;
+  background: #0A5786;
+  padding: 13px 30px 13px 40px;
+  text-decoration: none;
+  background-image: url("http://www.userlogos.org/files/logos/inductiveload/Pastebin%20simple.png");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.pastebinbutton:hover {
+  background: #0B6197;
+  text-decoration: none;
+  background-image: url("http://www.userlogos.org/files/logos/inductiveload/Pastebin%20simple.png");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+
+.youtubebutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: white;
+  font-size: 13px;
+  background: #cd201f;
+  padding: 13px 30px 13px 40px;
+  text-decoration: none;
+  background-image: url("http://www.vibranthearing.com/wp-content/uploads/2013/07/youtube-300x300.png");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.youtubebutton:hover {
+  background: #b31217;
+  text-decoration: none;
+  background-image: url("http://www.vibranthearing.com/wp-content/uploads/2013/07/youtube-300x300.png");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.dropboxbutton {
+margin-top: 2cm;
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: white;
+  font-size: 13px;
+  background: #266DB3;
+  padding: 13px 30px 13px 40px;
+  text-decoration: none;
+  background-image: url("http://www.userlogos.org/files/logos/Diamond00744/dropbox_1.png");
+  background-repeat: no-repeat;
+  background-size: 35px 30px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.dropboxbutton:hover {
+  background: #1C68B3;
+  text-decoration: none;
+  background-image: url("http://www.userlogos.org/files/logos/Diamond00744/dropbox_1.png");
+  background-repeat: no-repeat;
+  background-size: 35px 30px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.googleplusbutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: white;
+  font-size: 13px;
+  background: #292A2B;
+  padding: 13px 33px 13px 35px;
+  text-decoration: none;
+  background-image: url("http://www.iconarchive.com/download/i61868/designbolts/minimalist-social/Google-Plus.ico");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.googleplusbutton:hover {
+  background: #2d2d2d;
+  text-decoration: none;
+  background-image: url("http://www.iconarchive.com/download/i61868/designbolts/minimalist-social/Google-Plus.ico");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.downloadbutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: white;
+  font-size: 13px;
+  background: #4480AB;
+  padding: 13px 30px 13px 40px;
+  text-decoration: none;
+  background-image: url("https://www.ghostery.com/images/download-icon.273921f460a0c6119fe317a1393d1ce1.png");
+  background-repeat: no-repeat;
+  background-size: 35px 30px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.downloadbutton:hover {
+  background: #1F669A;
+  text-decoration: none;
+  background-image: url("https://www.ghostery.com/images/download-icon.273921f460a0c6119fe317a1393d1ce1.png");
+  background-repeat: no-repeat;
+  background-size: 35px 30px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.instagrambutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: black;
+  font-size: 13px;
+  background: #E0E4E9;
+  padding: 13px 30px 13px 40px;
+  text-decoration: none;
+  background-image: url("http://staging2.defconpaintball.com/wp-content/uploads/2014/09/instagram-logo-black-and-white-vector-2.png");
+  background-repeat: no-repeat;
+  background-size: 35px 30px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.instagrambutton:hover {
+  background: #C6CACE;
+  text-decoration: none;
+  background-image: url("http://staging2.defconpaintball.com/wp-content/uploads/2014/09/instagram-logo-black-and-white-vector-2.png");
+  background-repeat: no-repeat;
+  background-size: 35px 30px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.kickstarterbutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: black;
+  font-size: 13px;
+  background: #F1F3EF;
+  padding: 13px 30px 13px 40px;
+  text-decoration: none;
+  background-image: url("http://playhitops.com/wp-content/uploads/2014/07/kickstarter-logo-k-color.png");
+  background-repeat: no-repeat;
+  background-size: 35px 30px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+.kickstarterbutton:hover {
+  background: #D3D6CF;
+  text-decoration: none;
+  background-image: url("http://playhitops.com/wp-content/uploads/2014/07/kickstarter-logo-k-color.png");
+  background-repeat: no-repeat;
+  background-size: 35px 30px;
+  background-position: left;  
+  background-repeat:no-repeat;
+}
+
+
+/*! Small Buttons */
+
+.smallinstagrambutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius:0px;
+  color: black;
+  font-size: 13px;
+  background: #E0E4E9;
+  padding: 13px 25px 13px 25px;
+  text-decoration: none;
+  background-image: url("http://staging2.defconpaintball.com/wp-content/uploads/2014/09/instagram-logo-black-and-white-vector-2.png");
+  background-repeat: no-repeat;
+  background-size: 35px 30px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smallinstagrambutton:hover {
+  background: #C6CACE;
+  text-decoration: none;
+  background-image: url("http://staging2.defconpaintball.com/wp-content/uploads/2014/09/instagram-logo-black-and-white-vector-2.png");
+  background-repeat: no-repeat;
+  background-size: 35px 30px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smallkickstarterbutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius:0px;
+  color: black;
+  font-size: 13px;
+  background: #F1F3EF;
+  padding: 13px 25px 13px 25px;
+  text-decoration: none;
+  background-image: url("http://playhitops.com/wp-content/uploads/2014/07/kickstarter-logo-k-color.png");
+  background-repeat: no-repeat;
+  background-size: 35px 30px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smallkickstarterbutton:hover {
+  background: #D3D6CF;
+  text-decoration: none;
+  background-image: url("http://playhitops.com/wp-content/uploads/2014/07/kickstarter-logo-k-color.png");
+  background-repeat: no-repeat;
+  background-size: 35px 30px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smallfacebookbutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius:0px;
+  color: #ffffff;
+  font-size: 13px;
+  background: #3b5998;
+  padding: 13px 25px 13px 25px;
+  text-decoration: none;
+  background-image: url("http://www.cmit.com.jm/images/facebook.png");
+  background-repeat: no-repeat;
+  background-size: 35px 40px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smallfacebookbutton:hover {
+  background: #355088;
+  text-decoration: none;
+  background-image: url("http://www.cmit.com.jm/images/facebook.png");
+  background-repeat: no-repeat;
+  background-size: 35px 40px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smallgoogleplusbutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius:0px;
+  color: white;
+  font-size: 13px;
+  background: #292A2B;
+  padding: 13px 25px 13px 25px;
+  text-decoration: none;
+  background-image: url("http://www.iconarchive.com/download/i61868/designbolts/minimalist-social/Google-Plus.ico");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smallgoogleplusbutton:hover {
+  background: #2d2d2d;
+  text-decoration: none;
+  background-image: url("http://www.iconarchive.com/download/i61868/designbolts/minimalist-social/Google-Plus.ico");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smalltwitterbutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius:0px;
+  color: #ffffff;
+  font-size: 13px;
+  background: #00aced;
+  padding: 13px 25px 13px 25px;
+  text-decoration: none;
+  background-image: url("http://cdn.groceriesapparel.com/media/wysiwyg/icons/twitter-white.png");
+  background-repeat: no-repeat;
+  background-size: 30px 40px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smalltwitterbutton:hover {
+  background: #0ba9d1;
+  text-decoration: none;
+  background-image: url("http://cdn.groceriesapparel.com/media/wysiwyg/icons/twitter-white.png");
+  background-repeat: no-repeat;
+  background-size: 30px 40px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smallgithubbutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius:0px;
+  color: #333333;
+  font-size: 13px;
+  background: #E5E5E5;
+  padding: 13px 25px 13px 25px;
+  text-decoration: none;
+  background-image: url("http://reno.gov/home/showimage?id=6126");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smallgithubbutton:hover {
+  background: #D7D7D7;
+  text-decoration: none;
+  background-image: url("http://reno.gov/home/showimage?id=6126");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smallpastebinbutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius:0px;
+  color: white;
+  font-size: 13px;
+  background: #0A5786;
+  padding: 13px 25px 13px 25px;
+  text-decoration: none;
+  background-image: url("http://www.userlogos.org/files/logos/inductiveload/Pastebin%20simple.png");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smallpastebinbutton:hover {
+  background: #0B6197;
+  text-decoration: none;
+  background-image: url("http://www.userlogos.org/files/logos/inductiveload/Pastebin%20simple.png");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+
+.smallyoutubebutton {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius:0px;
+  color: white;
+  font-size: 13px;
+  background: #cd201f;
+  padding: 13px 25px 13px 25px;
+  text-decoration: none;
+  background-image: url("http://www.vibranthearing.com/wp-content/uploads/2013/07/youtube-300x300.png");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smallyoutubebutton:hover {
+  background: #b31217;
+  text-decoration: none;
+  background-image: url("http://www.vibranthearing.com/wp-content/uploads/2013/07/youtube-300x300.png");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smalldropboxbutton {
+margin-top: 2cm;
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius:0px;
+  color: white;
+  font-size: 13px;
+  background: #266DB3;
+  padding: 13px 25px 13px 25px;
+  text-decoration: none;
+  background-image: url("http://www.userlogos.org/files/logos/Diamond00744/dropbox_1.png");
+  background-repeat: no-repeat;
+  background-size: 35px 30px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
+
+.smalldropboxbutton:hover {
+  background: #1C68B3;
+  text-decoration: none;
+  background-image: url("http://www.userlogos.org/files/logos/Diamond00744/dropbox_1.png");
+  background-repeat: no-repeat;
+  background-size: 35px 30px;
+  background-position: center;  
+  background-repeat:no-repeat;
+}
