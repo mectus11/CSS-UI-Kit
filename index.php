@@ -12,6 +12,7 @@
 		<link href="css/buttons.css" rel="stylesheet">
 		<link href="css/columns.css" rel="stylesheet">
         <script src="js/script.js"></script>
+		<script src="js/tabs.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
     </head>
 	
@@ -41,46 +42,46 @@
 					   <li><a href='#'>Contact</a></li>
 					</ul>
 					</div>
-                    <hr>
-				<div class="grid-container outline">
-				<div class="row">
-					    <div class="container">
-						    <p> Normal Buttons </p>
-							<a class="blankbutton" href="#">Blank Button</a>
-						    <a class="normalbutton" href="#">Normal Button</a>
-						    <a class="warningbutton" href="#">Warning Button</a>
-						    <a class="dangerbutton" href="#">Danger Button</a>
-						    <a class="infobutton" href="#">Info Button</a>
-						    <a class="successbutton" href="#">Success Button</a>
-						    <p> Network Buttons </p>
-						    <a class="facebookbutton" href="#">Check out our page</a>
-						    <a class="twitterbutton" href="#">Tweet something</a>
-						    <a class="githubbutton" href="#">Check it out on Github</a>
-						    <a class="pastebinbutton" href="#">Look at this paste</a>
-							<a class="instagrambutton" href="#">Instagram? Why Not?</a>
-					    </div>
 					
-					    <div class="container">
-						    <a class="youtubebutton" href="#">Check out this channel</a>
-						    <a class="dropboxbutton" href="#">Download it from Dropbox</a>
-						    <a class="googleplusbutton" href="#">Google Plus Page</a>
-							<a class="downloadbutton" href="#">Download File</a>
-							<a class="kickstarterbutton" href="#">Kickstarter Page</a>								
-					    </div>
+                    <hr>
+					
+	    <div class="grid-container outline">
+				<div class="row">
+					<div class="container">
+					     <p> Normal Buttons </p>
+					     <a class="blankbutton" href="#">Blank Button</a>
+					     <a class="normalbutton" href="#">Normal Button</a>
+					     <a class="warningbutton" href="#">Warning Button</a>
+					     <a class="dangerbutton" href="#">Danger Button</a>
+					     <a class="infobutton" href="#">Info Button</a>
+					     <a class="successbutton" href="#">Success Button</a>
+					     <p> Network Buttons </p>
+					     <a class="facebookbutton" href="#">Check out our page</a>
+					     <a class="twitterbutton" href="#">Tweet something</a>
+					     <a class="githubbutton" href="#">Check it out on Github</a>
+					     <a class="instagrambutton" href="#">Instagram? Why Not?</a>
+					</div>
+					
+					<div class="container">
+					     <a class="youtubebutton" href="#">Check out this channel</a>
+					     <a class="dropboxbutton" href="#">Download it from Dropbox</a>
+					     <a class="googleplusbutton" href="#">Google Plus Page</a>
+					     <a class="downloadbutton" href="#">Download File</a>
+					     <a class="kickstarterbutton" href="#">Kickstarter Page</a>								
+					<div>
 						
-					    <div class="container">
-						    <p> Small Buttons </p>
-							<a class="smallfacebookbutton" href="#"></a>
-						    <a class="smalltwitterbutton" href="#"> </a>
-						    <a class="smallgithubbutton" href="#"></a>
-						    <a class="smallpastebinbutton" href="#"></a>
-						    <a class="smallinstagrambutton" href="#"></a>
-							<a class="smallgoogleplusbutton" href="#"></a>
-						    <a class="smallyoutubebutton" href="#"></a>
-						    <a class="smalldropboxbutton" href="#"></a>
-                            <a class="smallkickstarterbutton" href="#"></a>								
-							
-						</div>
+					<div class="container">
+						 <p> Small Buttons </p>
+					     <a class="smallfacebookbutton" href="#"></a>
+						 <a class="smalltwitterbutton" href="#"> </a>
+						 <a class="smallgithubbutton" href="#"></a>
+						 <a class="smallpastebinbutton" href="#"></a>
+						 <a class="smallinstagrambutton" href="#"></a>
+					     <a class="smallgoogleplusbutton" href="#"></a>
+						 <a class="smallyoutubebutton" href="#"></a>
+						 <a class="smalldropboxbutton" href="#"></a>
+                         <a class="smallkickstarterbutton" href="#"></a>										
+					</div>
 				</div>
 				
 				<div class="row">
@@ -92,7 +93,7 @@
 					    </div>
 				</div>
 				
-				<div class="row">
+			<div class="row">
 				<div class="container">
 					<p> Panels </p>
 					<div class="col-2"> 
@@ -139,11 +140,19 @@
                             </div>		
 					</div>
                 </div>					
- 				</div>
-				
-				</div>	
+ 		    </div>
+	    </div>	
 
-
+        
+		       <div class="row">
+                            <ul class="idTabs"> 
+                              <li><a href="#jquery">jQuery</a></li> 
+                              <li><a href="#official">Tabs 3</a></li> 
+                            </ul> 
+                            <div id="jquery">If you haven't checked out ...</div> 
+                            <div id="official">idTabs is only a simple ...</div>
+		        </div>	
+		
 					
 					</body>
 							
