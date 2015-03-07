@@ -112,7 +112,7 @@
 						    </div>
 					</div>
 
-					<div class="col-2">
+					<div class="col-3">
 						    <div class="panel-2">
 					        <div class="paneltitle-2">
                             <center>
@@ -128,7 +128,7 @@
                             </div>		
 					</div>
 
-					<div class="col-1">
+					<div class="col-5">
 						    <div class="panel-3">
 					        <div class="paneltitle-3">
                             <center>
@@ -145,13 +145,16 @@
 
         
 		       <div class="row">
+			        <div class="container">
+					<p> Tabs </p>
                             <ul class="idTabs"> 
                               <li><a href="#jquery">jQuery</a></li> 
                               <li><a href="#official">Tabs 3</a></li> 
                             </ul> 
                             <div id="jquery">If you haven't checked out ...</div> 
                             <div id="official">idTabs is only a simple ...</div>
-		        </div>	
+		            </div>
+				</div>	
 		
 					
 					</body>
